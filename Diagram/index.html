@@ -1,0 +1,41 @@
+<style>
+    .var_draw
+    {
+        display: flex;
+    }
+    .button
+    {
+        display: flex;
+        background-color: burlywood;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+    <div id="myLegend"></div>
+    <div class="var_draw">
+        <div>
+            <label>Key</label>
+            <input type="text"name="example1"id="key"size="20">
+        </div>  
+        
+        <div>
+            <label>Value</label>
+            <input type="text"name="example2"id="value"size="20">
+        </div>
+    <p></p>
+    <button class="button" onclick="Draw()" >
+        <p>Рисовать</p>
+    </button>
+    <script src="scripts.js"></script>
+</body>
+</html>
